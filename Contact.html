@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Page</title>
+    <link rel="stylesheet" href="Contact.css">
+</head>
+<body>
+<nav>
+    <a href="Home.html">Home</a>
+      <a href="Playerdetails.php">Players</a>
+    <div class="dropdown">
+      <a href="#" class="dropdownbtn">Team</a>
+      <div class="dropdowncontent">
+        <a href="thisseason.php">This Season</a>
+        <a href="Historicalachievement.html">Historical Achievements</a>
+      </div>
+
+    </div>
+    <a href="About.html">About</a>
+    <a href="Contact.html">Contact</a>
+  </nav>
+<div class="contact-form">
+  <h2>Contact Us</h2>
+  <form action="Submit.php" method="post">
+    <label>Name:</label>
+    <input type="text" name="name" required>
+
+    <label>Email:</label>
+    <input type="email" name="email" required>
+
+    <label>Your Message:</label>
+    <textarea name="message" rows="5" required></textarea>
+
+    <button type="submit" class="submit-btn">Submit</button>
+    <button type="reset" class="clear-btn">Clear</button>
+  </form>
+</div>
+<footer>
+    &copy; 2025 Athletaker
+  </footer>
+</body>
+</html>
